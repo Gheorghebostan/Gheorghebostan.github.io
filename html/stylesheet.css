@@ -10,10 +10,10 @@ body {
   background: #ffffff;
   color: #2c3e50;
   padding: 20px;
-  padding-bottom: 80px; /* pentru a nu acoperi conținutul de navbarul fix */
+  padding-bottom: 80px; 
 }
 
-/* Fade-in animation */
+
 .fade-in {
   animation: fadeIn 1s ease-in;
 }
@@ -23,7 +23,7 @@ body {
   to { opacity: 1; }
 }
 
-/* Banner */
+
 header .banner {
   background: #9b59b6;
   color: #000000;
@@ -39,7 +39,7 @@ header .banner h1 {
   font-size: 2rem;
 }
 
-/* Main Layout */
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -69,7 +69,7 @@ main {
   gap: 20px;
 }
 
-/* Boxes & Cards */
+
 .small-box,
 .content {
   background: #ffffff;
@@ -94,7 +94,7 @@ main {
   margin: 18px 0;
 }
 
-/* Links */
+
 .links {
   list-style: none;
   margin-bottom: 20px;
@@ -114,7 +114,7 @@ main {
   color: #219150;
 }
 
-/* Button */
+
 .btn {
   display: inline-block;
   background: #27ae60;
@@ -129,7 +129,7 @@ main {
   background: #219150;
 }
 
-/* Footer as Navbar */
+
 footer {
   position: fixed;
   bottom: 0;
